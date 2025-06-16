@@ -1,0 +1,29 @@
+{
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "showInlineTitle": true,
+  "alwaysUpdateLinks": false,
+  "autoPairMarkdown": true,
+  "vimMode": false,
+  "useMarkdownLinks": false,
+  "trashOption": "system",
+  "newLinkFormat": "relative",
+  "showUnsupportedFiles": false,
+  "uriCallbacks": false,
+  "userIgnoreFilters": [
+    "白板/"
+  ],
+  "strictLineBreaks": false,
+  "focusNewTab": true,
+  "defaultViewMode": "source",
+  "livePreview": true,
+  "propertiesInDocument": "visible",
+  "showLineNumber": false,
+  "rightToLeft": false,
+  "smartIndentList": true
+}

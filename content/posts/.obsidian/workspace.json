@@ -1,0 +1,257 @@
+{
+  "main": {
+    "id": "a216b32b62039767",
+    "type": "split",
+    "children": [
+      {
+        "id": "3131cedaec266771",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8711be42ea318e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology Basics.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Topology Basics"
+            }
+          },
+          {
+            "id": "1e359f2a232c3964",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Compactness II.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Compactness II"
+            }
+          },
+          {
+            "id": "9163e610fe2b03c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topology Basics.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Topology Basics"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ae3a397cb70d594b",
+    "type": "split",
+    "children": [
+      {
+        "id": "c4545093ef1c5367",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7e6ef9edc29976a2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "771897bda568c89c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          },
+          {
+            "id": "ad5cd5de7e7e36d6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 273.5
+  },
+  "right": {
+    "id": "227043f79f385482",
+    "type": "split",
+    "children": [
+      {
+        "id": "ccf030f6357f4db9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "12aa24ddaaf69883",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "835472f4521a60f1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "47f6ee8c73b99938",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "2673ed847a05b9c7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-02-11 18.15.20.excalidraw.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Drawing 2025-02-11 18.15.20.excalidraw 的出链列表"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "callout-manager:Insert Callout": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
+    }
+  },
+  "active": "a8711be42ea318e6",
+  "lastOpenFiles": [
+    "Compactness II.md",
+    "Topology Basics.md",
+    "Compactness I.md",
+    "Test.md",
+    "Basic Concepts of Determinants.md",
+    "Excalidraw/Drawing 2025-06-14 21.34.43.excalidraw.md",
+    "Excalidraw",
+    "Classification of Covering Spaces.md",
+    "Continuous Map and Homeomorphism.md",
+    "Classification of Surfaces.md",
+    "Topological Constructions.md",
+    "Compactness (Continued).md",
+    "剪切板.md",
+    "笔记说明与基础知识.md",
+    "Binary Relations.md",
+    "Tangent Vectors.md",
+    "Basic Concepts of Topological Manifolds.md",
+    "Basic Concepts of Functions and Sequences.md",
+    "Basis and Dimension.md",
+    "The Isomorphism Theorems of Groups.md",
+    "Subgroups.md",
+    "Fundamental Groups.md",
+    "Picard's Theorems.md",
+    "Singular Value Decomposition.md",
+    "The Completion of a Metric Space.md",
+    "Basic Concepts of Functors.md",
+    "Basic Concepts of Categories.md",
+    "Files/Books/A Comprehensive Course in Analysis, Part 1.pdf",
+    "Files/Books/Algebraic Geometry and Commutative Algebra.pdf",
+    "Files/Books/Differential Topology.pdf",
+    "未命名.canvas",
+    "Files/Books/Algebraic Curves.pdf",
+    "Files/Books/Advanced Modern Algebra, Part 1.pdf",
+    "Files/Books/A Visual Introduction to Differential Forms and Calculus on Manifolds.pdf",
+    "Files/Books/Advanced Modern Algebra, Part 2.pdf",
+    "Files/Books/A Comprehensive Course in Analysis, Part 2A.pdf",
+    "Files/Books/高等代数（上册）.pdf",
+    "Files/Images/Lift.svg",
+    "Files/Images/Natural Transformation.svg",
+    "截屏2025-04-26 上午2.07.01.png",
+    "Files/Images/The Five Lemma.svg",
+    "Files/Images/Homotopy Lifting Property.svg",
+    "Files/Images/Homotopy Extension Property.svg",
+    "Files/Images/&&_X_&_A_&&_X_ti.svg",
+    "Files/Images/Commutative Diagram.svg",
+    "Files/Drawing+2025-04-06+13.43.09.excalidraw.svg",
+    "文件/分离公理的反例.svg",
+    "补充/拓扑空间的一些例子与性质.canvas",
+    "补充/分离公理的补充.canvas",
+    "补充/阿尔泽拉-阿斯科利定理的补充.canvas",
+    "未命名 1.canvas",
+    "未命名 2.canvas"
+  ]
+}

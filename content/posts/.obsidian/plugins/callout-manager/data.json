@@ -1,0 +1,41 @@
+{
+  "callouts": {
+    "custom": [],
+    "settings": {
+      "bug": [
+        {
+          "changes": {
+            "icon": "lucide-binary",
+            "color": "208, 181, 48"
+          }
+        }
+      ],
+      "tip": [
+        {
+          "changes": {
+            "color": "83, 223, 221"
+          }
+        }
+      ],
+      "note": [
+        {
+          "changes": {
+            "color": "227, 107, 167"
+          }
+        }
+      ],
+      "todo": [
+        {
+          "changes": {
+            "color": "161, 106, 73"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}
