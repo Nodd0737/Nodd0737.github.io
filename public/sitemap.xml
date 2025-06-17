@@ -2,29 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://Nodd0737.github.io/</loc>
     <lastmod>2025-06-15T15:44:10-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/compactness-i/</loc>
+    <loc>https://Nodd0737.github.io/posts/</loc>
     <lastmod>2025-06-15T15:44:10-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/math/</loc>
-    <lastmod>2025-06-15T15:44:10-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-06-15T15:44:10-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-06-15T15:44:10-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/topology-basics/</loc>
-    <lastmod>2025-06-15T15:44:10-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/compactness-ii/</loc>
+    <loc>https://Nodd0737.github.io/categories/</loc>
     <lastmod>2024-06-15T15:44:10-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/others/</loc>
+    <loc>https://Nodd0737.github.io/posts/compactness-ii/</loc>
+    <lastmod>2024-06-15T15:44:10-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://Nodd0737.github.io/categories/math/</loc>
+    <lastmod>2024-06-15T15:44:10-04:00</lastmod>
+  </url><url>
+    <loc>https://Nodd0737.github.io/others/</loc>
+  </url><url>
+    <loc>https://Nodd0737.github.io/tags/</loc>
   </url>
 </urlset>
