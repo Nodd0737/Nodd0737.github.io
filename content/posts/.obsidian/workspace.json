@@ -52,7 +52,8 @@
               "title": "Topology Basics"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,10 +200,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "a8711be42ea318e6",
+  "active": "1e359f2a232c3964",
   "lastOpenFiles": [
-    "Compactness II.md",
     "Topology Basics.md",
+    "Compactness II.md",
     "Compactness I.md",
     "Test.md",
     "Basic Concepts of Determinants.md",
