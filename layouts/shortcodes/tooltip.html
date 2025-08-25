@@ -1,0 +1,4 @@
+{{ $title := .Get 0 | safeHTML }}
+<span class="has-tooltip" data-tippy-content="{{ $title }}">
+  {{ .Inner | safeHTML }}
+</span>

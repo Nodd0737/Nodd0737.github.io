@@ -1,12 +1,198 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Math on Nodd's Personal Website</title><link>https://Nodd0737.github.io/categories/math/</link><description>Recent content in Math on Nodd's Personal Website</description><generator>Hugo -- 0.147.8</generator><language>en-us</language><lastBuildDate>Sat, 15 Jun 2024 15:44:10 -0400</lastBuildDate><atom:link href="https://Nodd0737.github.io/categories/math/index.xml" rel="self" type="application/rss+xml"/><item><title>Compactness II</title><link>https://Nodd0737.github.io/posts/compactness-ii/</link><pubDate>Sat, 15 Jun 2024 15:44:10 -0400</pubDate><guid>https://Nodd0737.github.io/posts/compactness-ii/</guid><description>&lt;link rel="stylesheet" href="https://Nodd0737.github.io/css/vendors/admonitions.5c21d3611305826ca76e50bf22bdda6ed74f2f81d26216e9166f9ae104f2e27a.css" integrity="sha256-XCHTYRMFgmynblC/Ir3abtdPL4HSYhbpFm&amp;#43;a4QTy4no=" crossorigin="anonymous">
-&lt;div class="admonition warning">
-&lt;div class="admonition-header">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">&lt;path d="M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480L40 480c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24s24-10.7 24-24l0-112c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"/>&lt;/svg>
-&lt;span>Prerequisite&lt;/span>
-&lt;/div>
-&lt;/div>&lt;h2 id="other-compactness">Other Compactness&lt;/h2>
-&lt;div class="admonition info">
-&lt;div class="admonition-header">&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">&lt;path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/>&lt;/svg>
-&lt;span>Definition: sequential compactness&lt;br>&lt;/span>
-&lt;/div>
-&lt;div class="admonition-content">
-&lt;p>A topological space $X$ is called &lt;strong>sequentially compact&lt;/strong> if every sequence in $X$ has a convergent subsequence whose limit is in $X$.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Math on Nodd&#39;s Personal Website</title>
+    <link>http://localhost:1313/categories/math/</link>
+    <description>Recent content in Math on Nodd&#39;s Personal Website</description>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Sep 2024 15:44:10 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Homotopy: Basics</title>
+      <link>http://localhost:1313/posts/homotopy-basics/</link>
+      <pubDate>Mon, 09 Sep 2024 15:44:10 -0400</pubDate>
+      <guid>http://localhost:1313/posts/homotopy-basics/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/vendors/admonitions.css&#34;&gt;
+    &lt;div class=&#34;admonition info&#34;&gt;
+      &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;
+        &lt;span&gt;Homotopy&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;admonition-content&#34;&gt;
+        &lt;p&gt;Let $f,g:X\to Y$ be continuous maps between topological spaces. A &lt;strong&gt;homotopy&lt;/strong&gt; between $f$ and $g$ is a continuous map $H:X\times I\to Y$ satisfying $H(x,0)=f(x)$ and $H(x,1)=g(x)$ for all $x\in X$. In this case, $f$ and $g$ are said to be &lt;strong&gt;homotopic&lt;/strong&gt;, denoted by $f\simeq g$.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Axiom of Choice and Its Equivalences</title>
+      <link>http://localhost:1313/posts/the-axiom-of-choice-and-its-equivalences/</link>
+      <pubDate>Fri, 17 May 2024 15:44:10 -0400</pubDate>
+      <guid>http://localhost:1313/posts/the-axiom-of-choice-and-its-equivalences/</guid>
+      <description>&lt;p&gt;The axiom of choice (AC) is one of the most discussed principles in modern mathematics. Unlike other axioms, the axiom of choice was not readily accepted—and even today, it remains somewhat controversial. For decades, mathematicians debated its validity. Some claimed to have proven it, only to later discover they had merely arrived at an equivalent formulation. Others embraced it, though this led to the emergence of various bizarre and counterintuitive constructions. Still others explored its role within alternative axiom systems, investigating what mathematics would look like without it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Smooth Manifolds: Basics</title>
+      <link>http://localhost:1313/posts/smooth-manifolds-basics/</link>
+      <pubDate>Tue, 19 Dec 2023 15:44:10 -0400</pubDate>
+      <guid>http://localhost:1313/posts/smooth-manifolds-basics/</guid>
+      <description>&lt;p&gt;Nowadays, manifolds serve as the gateway to many advanced topics and should no longer be viewed as an elite concept. As long as one has taken a course in analysis and point-set topology, it is possible to begin exploring manifolds.&lt;/p&gt;
+&lt;h2 id=&#34;from-topological-spaces-to-topological-manifolds&#34;&gt;From topological spaces to topological manifolds&lt;/h2&gt;
+&lt;p&gt;The most important feature of a manifold is that it locally resembles Euclidean space. This property allows it to unify many seemingly unrelated geometric structures under a common framework.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Paracompactness and Partition of Unity</title>
+      <link>http://localhost:1313/posts/paracompactness-and-partition-of-unity/</link>
+      <pubDate>Sun, 19 Nov 2023 15:44:10 -0400</pubDate>
+      <guid>http://localhost:1313/posts/paracompactness-and-partition-of-unity/</guid>
+      <description>&lt;h2 id=&#34;paracompactness-and-its-properties&#34;&gt;Paracompactness and its properties&lt;/h2&gt;
+
+          &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/vendors/admonitions.css&#34;&gt;
+    &lt;div class=&#34;admonition info&#34;&gt;
+      &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;
+        &lt;span&gt;Open refinement&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;admonition-content&#34;&gt;
+        &lt;p&gt;Given a topological space $X$, let $\mathcal{U}$ and $\mathcal{V}$ be open covers of $X$. $\mathcal{V}$ is said to be an &lt;strong&gt;open refinement&lt;/strong&gt; of $\mathcal{U}$ if for any $V\in \mathcal{V}$, there exists $U\in \mathcal{U}$ such that $V\subseteq U$.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Category Theory: Basics</title>
+      <link>http://localhost:1313/posts/category-theory-basics/</link>
+      <pubDate>Tue, 25 Jul 2023 15:44:10 -0400</pubDate>
+      <guid>http://localhost:1313/posts/category-theory-basics/</guid>
+      <description>&lt;div class=&#34;admonition info&#34;&gt;
+      &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;
+        &lt;span&gt;Category&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;admonition-content&#34;&gt;
+        &lt;p&gt;A &lt;strong&gt;category&lt;/strong&gt; $\mathcal{C}$ consists of the following data:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A collection $\text{Ob}(\mathcal{C})$, whose elements are called &lt;strong&gt;objects&lt;/strong&gt; of $\mathcal{C}$.&lt;/li&gt;
+&lt;li&gt;For all $X,Y\in \text{Ob}(\mathcal{C})$, a set $\mathcal{C}(X,Y)$, whose elements are called &lt;strong&gt;morphisms&lt;/strong&gt; from $X$ to $Y$.&lt;/li&gt;
+&lt;li&gt;For all $X,Y,Z\in \text{Ob}(\mathcal{C})$, a composition function $\mathcal{C}(Y,Z)\times \mathcal{C}(X,Y)\to \mathcal{C}(X,Z)$, defined by $(g,f)\mapsto g\circ f$.&lt;/li&gt;
+&lt;li&gt;For each $X\in \text{Ob}(\mathcal{C})$, an &lt;strong&gt;identity morphism&lt;/strong&gt; $\text{id}_X\in \mathcal{C}(X,X)$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;They satisfy the following axioms:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Compactness of Products</title>
+      <link>http://localhost:1313/posts/compactness-of-products/</link>
+      <pubDate>Thu, 18 May 2023 15:44:10 -0400</pubDate>
+      <guid>http://localhost:1313/posts/compactness-of-products/</guid>
+      <description>&lt;p&gt;I once considered lumping several compactness-related theorems into a single article, but eventually realized that approach wouldn&amp;rsquo;t do them justice. In particular, Tychonoff&amp;rsquo;s theorem connects with many other concepts and provides a rich, unified picture of compactness in product spaces, along with several other valuable ideas worth exploring.&lt;/p&gt;
+&lt;p&gt;Throughout this article, all products of topological spaces are assumed to be equipped with the product topology.&lt;/p&gt;
+&lt;h2 id=&#34;tube-lemma-and-compactness-of-finite-products&#34;&gt;Tube lemma and compactness of finite products&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s begin with the tube lemma.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>More Compactness</title>
+      <link>http://localhost:1313/posts/more-compactness/</link>
+      <pubDate>Thu, 06 Apr 2023 15:44:10 -0400</pubDate>
+      <guid>http://localhost:1313/posts/more-compactness/</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve already encountered compactness defined via open covers. In fact, compactness is not a single notion and there are several variations of it. Each serving different purposes and exhibiting interesting connections with one another.&lt;/p&gt;
+&lt;h2 id=&#34;other-compactness-and-their-relationship&#34;&gt;Other compactness and their relationship&lt;/h2&gt;
+
+          &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/vendors/admonitions.css&#34;&gt;
+    &lt;div class=&#34;admonition info&#34;&gt;
+      &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;
+        &lt;span&gt;Sequential compactness&lt;br&gt;&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;admonition-content&#34;&gt;
+        &lt;p&gt;A topological space $X$ is called &lt;strong&gt;sequentially compact&lt;/strong&gt; if every sequence in $X$ has a convergent subsequence whose limit is in $X$.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Compactness</title>
+      <link>http://localhost:1313/posts/compactness/</link>
+      <pubDate>Mon, 03 Apr 2023 15:44:10 -0400</pubDate>
+      <guid>http://localhost:1313/posts/compactness/</guid>
+      <description>&lt;p&gt;Compactness is not an especially intuitive or natural concept, but it holds a central place in topology. As someone once said, &amp;ldquo;If you don&amp;rsquo;t understood compactness, you don&amp;rsquo;t understood topology&amp;rdquo;, and there&amp;rsquo;s certainly some truth in that.&lt;/p&gt;
+&lt;h2 id=&#34;definition-and-characterizations-of-compactness&#34;&gt;Definition and characterizations of compactness&lt;/h2&gt;
+
+          &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/vendors/admonitions.css&#34;&gt;
+    &lt;div class=&#34;admonition info&#34;&gt;
+      &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;
+        &lt;span&gt;Open cover&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;admonition-content&#34;&gt;
+        &lt;p&gt;Given a topological space $X$ and a subset $Y\subseteq X$, a collection of subsets $\{U_{\alpha}\}_{\alpha\in A}$ of $X$ is called an &lt;strong&gt;open cover&lt;/strong&gt; of $Y$ if $\displaystyle Y\subseteq \bigcup_{\alpha\in A} U_{\alpha}$.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Countability Axioms and More</title>
+      <link>http://localhost:1313/posts/countability-axioms-and-more/</link>
+      <pubDate>Thu, 23 Mar 2023 15:44:10 -0400</pubDate>
+      <guid>http://localhost:1313/posts/countability-axioms-and-more/</guid>
+      <description>&lt;p&gt;Compactness can be viewed as a kind of finiteness, which allows us to deduce global properties of a topological space from local ones. But what happens when we move to the infinite case? General infinite objects can be difficult to handle, but countable infinity is often more tractable. This leads us to our topic: the countability axioms.&lt;/p&gt;
+&lt;h2 id=&#34;definitions&#34;&gt;Definitions&lt;/h2&gt;
+&lt;p&gt;In the narrow sense, the countability axioms refer to two definitions related to bases. In a broader sense, they include a wider collection of definitions related to countability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Topological Constructions</title>
+      <link>http://localhost:1313/posts/topological-constructions/</link>
+      <pubDate>Wed, 15 Mar 2023 15:44:10 -0400</pubDate>
+      <guid>http://localhost:1313/posts/topological-constructions/</guid>
+      <description>&lt;h2 id=&#34;basis-subbasis-and-neighborhood-basis&#34;&gt;Basis, subbasis, and neighborhood basis&lt;/h2&gt;
+
+          &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/vendors/admonitions.css&#34;&gt;
+    &lt;div class=&#34;admonition info&#34;&gt;
+      &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;
+        &lt;span&gt;Basis&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;admonition-content&#34;&gt;
+        &lt;p&gt;Given a set $X$, a collection $\mathcal{B}$ of subsets of $X$ is called a &lt;strong&gt;basis&lt;/strong&gt; for a topology on $X$ if:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Topological Spaces: Basics</title>
+      <link>http://localhost:1313/posts/topological-spaces-basics/</link>
+      <pubDate>Thu, 09 Mar 2023 15:44:10 -0400</pubDate>
+      <guid>http://localhost:1313/posts/topological-spaces-basics/</guid>
+      <description>&lt;h2 id=&#34;basic-definitions&#34;&gt;Basic definitions&lt;/h2&gt;
+
+    &lt;div class=&#34;admonition info&#34;&gt;
+      &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;
+        &lt;span&gt;Topological space&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;admonition-content&#34;&gt;
+        &lt;p&gt;Given a nonempty set $X$, a collection $\mathcal{T}$ of subsets of $X$ is called a &lt;strong&gt;topology&lt;/strong&gt; on $X$ if it satisfies the following conditions:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rings and Fields: Basics</title>
+      <link>http://localhost:1313/posts/rings-and-fields-basics/</link>
+      <pubDate>Wed, 28 Dec 2022 15:44:10 -0400</pubDate>
+      <guid>http://localhost:1313/posts/rings-and-fields-basics/</guid>
+      <description>&lt;p&gt;Since we already have a background in group theory, we can move quickly through some basic definitions and propositions about rings and fields. However, it&amp;rsquo;s worth noting that while rings and fields build upon group structures, their study involves fundamentally different concepts and methods compared to group theory.&lt;/p&gt;
+&lt;h2 id=&#34;basic-definitions-related-to-rings&#34;&gt;Basic definitions related to rings&lt;/h2&gt;
+
+          &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/vendors/admonitions.css&#34;&gt;
+    &lt;div class=&#34;admonition info&#34;&gt;
+      &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;
+        &lt;span&gt;Ring&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;admonition-content&#34;&gt;
+        &lt;p&gt;A &lt;strong&gt;ring&lt;/strong&gt; is a set $R$ together with two binary operations, addition $(+)$ and multiplication $(\cdot)$, such that for all $a,b,c\in R$:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Complex Analysis: Basics</title>
+      <link>http://localhost:1313/posts/complex-analysis-basics/</link>
+      <pubDate>Fri, 02 Sep 2022 15:44:10 -0400</pubDate>
+      <guid>http://localhost:1313/posts/complex-analysis-basics/</guid>
+      <description>&lt;h2 id=&#34;basic-concepts-of-complex-numbers&#34;&gt;Basic concepts of complex numbers&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;complex plane&lt;/strong&gt; $\mathbb{C}$ is the set of all numbers of the form $z = x + iy$, where $x,y \in \mathbb{R}$ and $i$ is the imaginary unit satisfying $i^2 = -1$.
+The real part of $z$ is denoted $\operatorname{Re}(z) = x$ and the imaginary part $\operatorname{Im}(z) = y$.&lt;/p&gt;
+&lt;p&gt;We identify $\mathbb{C}$ with $\mathbb{R}^2$ via the correspondence $z = (x,y) \leftrightarrow x + iy$.&lt;/p&gt;
+
+          &lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/vendors/admonitions.css&#34;&gt;
+    &lt;div class=&#34;admonition info&#34;&gt;
+      &lt;div class=&#34;admonition-header&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 512 512&#34;&gt;&lt;path d=&#34;M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z&#34;/&gt;&lt;/svg&gt;
+        &lt;span&gt;Complex-valued function&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;admonition-content&#34;&gt;
+        &lt;p&gt;A &lt;strong&gt;complex-valued function&lt;/strong&gt; on a set $U\subseteq C$ is a function $f:U\to \mathbb{C}$.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Before You Read These Notes</title>
+      <link>http://localhost:1313/posts/before-you-read-these-notes/</link>
+      <pubDate>Mon, 29 Aug 2022 15:44:10 -0400</pubDate>
+      <guid>http://localhost:1313/posts/before-you-read-these-notes/</guid>
+      <description>&lt;h2 id=&#34;purpose-and-limitations&#34;&gt;Purpose and Limitations&lt;/h2&gt;
+&lt;p&gt;These online notes are only lightly edited versions of my personal notes, so imperfections are inevitable. I&amp;rsquo;ve done my best to avoid factual errors, but can&amp;rsquo;t guarantee much beyond that. Therefore, these notes are not a substitute for standard textbooks, and you (most likely) won&amp;rsquo;t be able to rely on them for last-minute cramming if you&amp;rsquo;ve missed lots of lectures.&lt;/p&gt;
+&lt;p&gt;You might find them helpful if you:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

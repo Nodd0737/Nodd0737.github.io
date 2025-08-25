@@ -16,7 +16,7 @@
   "Editor@@bold-color@@light": "#5F00FF",
   "Editor@@disable-alternative-checkboxes": false,
   "Editor@@codeblock-style-select": "codeblock-style-customize",
-  "Editor@@callout-style-select": "callout-style-3",
+  "Editor@@callout-style-select": "callout-style-1",
   "Editor@@callout-border-opacity": 0.25,
   "Appearance-dark@@card-layout-open-dark": true,
   "Appearance-dark@@accent-dark": "#ef8862",
