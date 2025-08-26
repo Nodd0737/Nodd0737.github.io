@@ -33,11 +33,6 @@ jobs:
       - name: Build
         run: hugo --minify --cleanDestinationDir
 
-      - name: List homepage files (debug)
-        run: |
-          ls -la public || true
-          find public -maxdepth 2 -type f -name 'index.*' -print
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
