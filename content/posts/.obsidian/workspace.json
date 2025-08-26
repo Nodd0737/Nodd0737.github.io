@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fundamental Groups.md",
+                "file": "Rings and Fields Basics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Fundamental Groups"
+              "title": "Rings and Fields Basics"
             }
           }
         ],
@@ -219,8 +219,8 @@
   },
   "active": "ca57172c56327caf",
   "lastOpenFiles": [
-    "Metric Spaces.md",
     "Fundamental Groups.md",
+    "Metric Spaces.md",
     "Drafts.md",
     "Countability Axioms and More.md",
     "Connectedness.md",

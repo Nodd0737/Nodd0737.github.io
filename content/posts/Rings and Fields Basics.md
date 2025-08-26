@@ -1,6 +1,6 @@
 +++
 date = '2022-12-28T15:44:10-04:00'
-draft = false
+draft = true
 title = "Rings and Fields: Basics"
 categories = 'Math'
 ShowToc = true
@@ -66,13 +66,13 @@ Every field is an integral domain.
 A **field extension** $F\subseteq E$ is an inclusion of fields (where $F$ is a subfield of $E$). The **degree** of the extension, $[E : F]$, is the dimension of $E$ as an $F$-vector space.  
 
 **Example:** $[\mathbb{C}:\mathbb{R}]=2$.  
-#### **3. Characteristic**
+
 The **characteristic** of a field $F$, denoted $\text{char}(F)$, is the smallest positive integer $p$ such that $p \cdot 1 = 0$. If no such $p$ exists, $\text{char}(F) = 0$.  
 
 **Examples:**  
 - $\text{char}(\mathbb{Q}) = 0$.  
 - $\text{char}(\mathbb{F}_p) = p$ (where $\mathbb{F}_p = \mathbb{Z}/p\mathbb{Z}$).  
-#### **4. Prime Field**
+
 The **prime field** of $F$ is its smallest subfield:  
 - If $\text{char}(F) = 0$, the prime field is $\mathbb{Q}$.  
 - If $\text{char}(F) = p$, the prime field is $\mathbb{F}_p$.
