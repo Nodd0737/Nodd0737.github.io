@@ -4,6 +4,7 @@ draft = false
 title = 'Homotopy: Basics'
 categories = 'Math'
 ShowToc = true
+math = true
 tags = [ "Algebraic Topology", "Basics" ]
 +++
 
