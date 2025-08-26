@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homotopy Basics.md",
+                "file": "Fundamental Groups.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Homotopy Basics"
+              "title": "Fundamental Groups"
             }
           }
         ],
@@ -219,19 +219,19 @@
   },
   "active": "ca57172c56327caf",
   "lastOpenFiles": [
+    "Metric Spaces.md",
     "Fundamental Groups.md",
-    "Category Theory Basics.md",
-    "Compactness.md",
-    "More Compactness.md",
     "Drafts.md",
     "Countability Axioms and More.md",
-    "Metric Spaces.md",
-    "Compactness of Products.md",
-    "Topological Spaces Basics.md",
     "Connectedness.md",
-    "Homotopy Basics.md",
-    "Tangent Vectors.md",
     "Complex Analysis Basics.md",
+    "Compactness of Products.md",
+    "Compactness.md",
+    "Category Theory Basics.md",
+    "Homotopy Basics.md",
+    "More Compactness.md",
+    "Topological Spaces Basics.md",
+    "Tangent Vectors.md",
     "Before You Read These Notes.md",
     "Metrizability and Classical Results of Urysohn and Tietze.md",
     "Regular Values, Critical Values and Two Theorems.md",
